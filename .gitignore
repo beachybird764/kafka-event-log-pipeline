@@ -20,7 +20,7 @@ spark-warehouse/
 logs/*.log
 
 # Checkpoints
-data/checkpoint/
+data/checkpoints/
 
 # OS
 .DS_Store

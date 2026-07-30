@@ -1,0 +1,7 @@
+Run shell script in this order only:
+
+>> .\scripts\start_kafka.ps1
+>> .\scripts\create_topics.ps1
+>> .\scripts\list_topics.ps1
+>> .\scripts\describe_topics.ps1
+>> .\scripts\stop_kafka.ps1
