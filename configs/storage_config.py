@@ -10,4 +10,5 @@ SILVER_PATH = str(DATA_PATH / "silver")
 GOLD_PATH = str(DATA_PATH / "gold")
 
 CHECKPOINT_PATH = str(DATA_PATH / "checkpoints")
-LANDING_CHECKPOINT = str(DATA_PATH / "checkpoints" / "landing")
+INGESTION_CHECKPOINT = str(DATA_PATH / "checkpoints" / "landing")
+
