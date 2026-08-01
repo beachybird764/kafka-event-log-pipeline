@@ -1,0 +1,6 @@
+kafka-python
+faker
+pyspark==3.5.6
+delta-spark==3.3.2
+dbt-core
+dbt-spark
