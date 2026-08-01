@@ -1,5 +1,5 @@
 from configs.storage_config import SILVER_PATH
-from spark.streaming.spark_session import create_spark_session
+from spark.utils.spark_session import create_spark_session
 from spark.batch.bronze_reader import read_bronze, write_silver
 from spark.batch.silver_transformations import apply_silver_transformations
 

@@ -6,7 +6,7 @@ from pyspark.sql.functions import (
     to_date
 )
 from spark.streaming.kafka_reader import read_kafka_stream
-from spark.streaming.spark_session import create_spark_session
+from spark.utils.spark_session import create_spark_session
 from spark.streaming.json_parser import parse_event_stream
 from configs.storage_config import (
     LANDING_PATH,

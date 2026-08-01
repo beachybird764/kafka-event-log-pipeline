@@ -1,7 +1,7 @@
 from pyspark.sql.functions import col
 
 from spark.streaming.kafka_reader import read_kafka_stream
-from spark.streaming.spark_session import create_spark_session
+from spark.utils.spark_session import create_spark_session
 
 
 def main():
